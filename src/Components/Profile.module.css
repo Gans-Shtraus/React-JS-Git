@@ -5,13 +5,29 @@
   .item {
     color: blue;
   }
-  .posts {
+  .posts.about {
     border-style: solid;
     border-radius: 10px;
     text-align: center;
     color: aqua;
   }
-  .posts.about {
+  .posts {
     color: blue;
     font-size: 30px;
+
   }
+.avatar {
+  color: blueviolet;
+  border-style: solid;
+  border-radius: 10px;
+  text-align: left;
+  padding-left: 10px;
+  font-style: italic;
+}
+.button.newPost {
+  color: blue;
+  background-color: aqua;
+  border-style: solid;
+  border-width: 0px;
+  border-radius: 10px;
+}

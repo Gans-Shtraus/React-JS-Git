@@ -7,7 +7,7 @@ const Profile = () => {
         <div>
           <img src="https://helpx.adobe.com/content/dam/help/en/photoshop/using/convert-color-image-black-white/jcr_content/main-pars/before_and_after/image-before/Landscape-Color.jpg" />
         </div>
-        <div>
+        <div className={classes.avatar}>
           Ava + descriptions
           <img src="" />
         </div>
@@ -15,7 +15,11 @@ const Profile = () => {
           <p className = {`${classes.posts} ${classes.about}`}>Мои посты</p>
           </div>
 
-        <div>new post</div>
+        <div>
+
+          <button className= {`${classes.button} ${classes.newPost}`}>new post</button>
+          
+          </div>
 
         <div className = {classes.item}>post 1</div>
         
