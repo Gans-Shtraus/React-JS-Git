@@ -1,0 +1,17 @@
+.content {
+    grid-area: c;
+    background-color: cornflowerblue;
+  }
+  .item {
+    color: blue;
+  }
+  .posts {
+    border-style: solid;
+    border-radius: 10px;
+    text-align: center;
+    color: aqua;
+  }
+  .posts.about {
+    color: blue;
+    font-size: 30px;
+  }
